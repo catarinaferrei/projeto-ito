@@ -23,6 +23,9 @@ def git_branch(args):
 def git_remote():
     bash('git remote add origin https://github.com/catarinaferrei/projeto-ito.git')
 
+def git_pull(args):
+    bash('git pull https://github.com/catarinaferrei/projeto-ito.git')
+
 def git_push(args):
     bash('git push -u origin ' + f'{args.branch}')
 
@@ -36,7 +39,8 @@ def main():
     git_add()
     git_commit(args)
     git_branch(args)
-    git_remote()
+    #git_remote()
+    git_pull()
     git_push(args)
 
 if __name__ == '__main__':
