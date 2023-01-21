@@ -7,6 +7,10 @@ def bash(command):
 
 def git_init():
     bash('git init')
+
+def git_clone():
+    bash('git clone')
+
 def git_add():
     bash('git add --all')
 
@@ -28,6 +32,7 @@ def main():
     parser.add_argument('--branch', help='Name of the branch',required=False)
     args = parser.parse_args()
     git_init()
+    #git_clone()
     git_add()
     git_commit(args)
     git_branch(args)
