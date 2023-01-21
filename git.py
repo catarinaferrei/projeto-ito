@@ -23,7 +23,7 @@ def git_branch(args):
 def git_remote():
     bash('git remote add origin https://github.com/catarinaferrei/projeto-ito.git')
 
-def git_pull(args):
+def git_pull():
     bash('git pull https://github.com/catarinaferrei/projeto-ito.git')
 
 def git_push(args):
