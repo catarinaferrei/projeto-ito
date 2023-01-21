@@ -11,16 +11,16 @@ def git_add():
     bash('git add --all')
 
 def git_commit(args):
-    bash('git commit -m' + f'{args.commit}')
+    bash('git commit -m ' + f'{args.commit}')
 
 def git_branch(args):
-    bash('git branch -M' + f'{args.branch}')
+    bash('git branch -M ' + f'{args.branch}')
 
 def git_remote():
     bash('git remote add origin https://github.com/catarinaferrei/projeto-ito.git')
 
 def git_push(args):
-    bash('git push -u origin' + f'{args.branch}')
+    bash('git push -u origin ' + f'{args.branch}')
 
 def main():
     parser = argparse.ArgumentParser()
