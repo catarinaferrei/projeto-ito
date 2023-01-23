@@ -1,0 +1,5 @@
+A gestão da procura funciona como ponto de comunicação entre o cliente interno(áreas de negócio) e a equipa de desenvolvimento da DSI.
+ Um exemplo seria, a DBD querer implementar uma nova funcionalidade na app que permite a leitura de cartões.
+Para tal, a DBD comunica à gestão da procura a sua intenção e a gestão da procura (onde tem um product owner por equipa) vai falar com a equipa de desenvolvimento para saber o número de recursos que precisam e o número de horas necessários para implementar esta solução.
+Concluindo, todos os pedidos e todas as comunicações feitas entre o cliente interno e a equipa de desenvolvimento são feitas pela gestão da procura.
+O cliente não comunica diretamente com a equipa de desenvolvimento e vice-versa. A comunicação é sempre feita através do product owner que pertence à gestão da procura e cada equipa de desenvolvimento tem um product owner.
