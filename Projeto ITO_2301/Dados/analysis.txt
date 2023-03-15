@@ -12,4 +12,4 @@ The results of the sentiment score analysis can be interpreted as follows:
 - The average positive score of 0.1824 indicates that the tweets in your dataset have a somewhat positive sentiment, but not as much as negative or neutral. The standard deviation of 0.2338 suggests that the positive sentiment scores are somewhat spread out, with some tweets having much more positive scores than others.
 
 
-Overall, these results suggest that the sentiment of the tweets in your dataset is somewhat mixed, with a slight tendency towards negativity. However
+Overall, these results suggest that the sentiment of the tweets in your dataset is somewhat mixed, with a slight tendency towards negativity. 
